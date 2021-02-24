@@ -1,10 +1,10 @@
 buildscript{
 	repositories{
-		flatDir dirs: 'C:\\csci2020u_sejal\\proguard\\lib'
+		flatDir dirs: '..\\proguard\\lib'
 	}
 
 	dependencies{
-		classpath: ':progaurd:'
+		classpath: ':proguard:'
 	}
 }
 plugins {
