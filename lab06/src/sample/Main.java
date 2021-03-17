@@ -56,7 +56,7 @@ public class Main extends Application {
         double barW = w / data.length;
         double x = xAxis;
         for(double val: data){
-            double barH = ((val - min) / (y)) * h;
+            double barH = ((val) / (y)) * h;
             gc.fillRect(x, (h - barH), barW, barH);
             x += 2 * barW + 10;
         }
